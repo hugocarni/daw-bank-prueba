@@ -4,6 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CuentaBancaria {
+	
+	/**
+	 * @author pablo
+	 * @since 12
+	 * 
+	 */
+	
+	
 	private String iban;
 	private String titular;
 	private double saldo;
@@ -11,14 +19,22 @@ public class CuentaBancaria {
 
 	private static final int MAX_MOVIMIENTOS = 10;
 	private static final double SALDO_MINIMO = -50;
-
+	
+	/**
+	 * 
+	 * @param iban 
+	 * @param titular
+	 */
 	public CuentaBancaria(String iban, String titular) {
 		this.iban = iban;
 		this.titular = titular;
 		this.saldo = 0;
 		this.movimientos = new ArrayList<>();
 	}
-
+	/**
+	 * 
+	 * @return devuelve un iban
+	 */
 	public String getIban() {
 		return iban;
 	}
