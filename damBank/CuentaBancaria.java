@@ -20,8 +20,8 @@ public class CuentaBancaria {
 	
 	/**
 	 * 
-	 * @param iban  sadasdadsasdasdasdsadasdas sadhbsahgdhuashd
-	 * @param titular asdasdadasdadadadsad syagfdyiagdyiasid
+	 * @param iban  sadasdadsasdasdasdsadasdas sadhbsahgdhuashd ahsbdhuagsdas
+	 * @param titular asdasdadasdadadadsad syagfdyiagdyiasid sjhadidhbad
 	 */
 	public CuentaBancaria(String iban, String titular) {
 		this.iban = iban;
