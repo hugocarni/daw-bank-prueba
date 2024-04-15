@@ -2,14 +2,12 @@ package damBank;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * @author pablo
+ * @since asdfasd
+ * @version assdad
+ */
 public class CuentaBancaria {
-	
-	/**
-	 * @author pablo
-	 * @since 12
-	 * 
-	 */
 	
 	
 	private String iban;
